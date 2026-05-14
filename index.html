@@ -3,23 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login page</title>
+    <title>Learn HTML & CSS</title>
+    <style>
+        body {
+            background-color: #0d0d0d;
+            color: white;
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            color: #888;
+            margin-bottom: 2rem;
+        }
+
+        .btn {
+            background-color: #f5c542;
+            color: #000;
+            border: none;
+            padding: 14px 32px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+
+        .btn:hover {
+            opacity: 0.85;
+        }
+    </style>
 </head>
 <body>
-<table>
-    <caption>Login Page</caption>
-    <tr>
-        <th>Name</th>
-        <th>Roll no</th>
-        <th>Class</th>
-    </tr>
-    <tr>
-    <td>Ram</td>
-    <td>25</td>
-    <td>Bachelor in computer engineering </td>
-    </tr>
-</table>
 
-</table>    
+    <div>
+        <h1>Hi! Do you want to learn HTML & CSS?</h1>
+        <p>A complete revision guide with live examples and code.</p>
+        <a href="htmlcss.html" class="btn">Yes, Let's Go! →</a>
+    </div>
+
 </body>
 </html>
